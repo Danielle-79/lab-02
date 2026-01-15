@@ -44,7 +44,7 @@ int selectedIndex = -1;
         buttonDelete = findViewById(R.id.DeleteButton);
         buttonConfirm = findViewById(R.id.ConfirmButton);
         input = findViewById(R.id.editText);
-        String []cities = {"Edmonton","Edmonton","Edmonton","Edmonton","Edmonton","Edmonton","Edmonton","Edmonton","Edmonton","Edmonton"};
+        String []cities = {"Edmonton","LA","Lisbon"};
         dataList = new ArrayList<>();
         dataList.addAll(Arrays.asList(cities));
 
